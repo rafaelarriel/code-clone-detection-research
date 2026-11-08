@@ -1,0 +1,1094 @@
+{
+  "dataset": "clone-study-v2",
+  "version": "2.0.0",
+  "annotation_policy": "Non-exhaustive targeted positive claims and negative semantic-equivalence claims; multiple labels on same pair may have different scopes. Scores only the claims in this file, not all possible pairs.",
+  "positives_count": 20,
+  "semantic_negatives_count": 15,
+  "cases": [
+    {
+      "id": "P01",
+      "label": "positive",
+      "expected_type": "T1",
+      "scope": "body",
+      "left": {
+        "function": "net_amount",
+        "file": "src/ledger.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "net_amount_copy",
+        "file": "src/ledger.py",
+        "definition": [
+          10,
+          14
+        ],
+        "body": [
+          11,
+          14
+        ]
+      },
+      "rationale": "identical accumulation body"
+    },
+    {
+      "id": "P02",
+      "label": "positive",
+      "expected_type": "T2",
+      "scope": "definition",
+      "left": {
+        "function": "net_amount",
+        "file": "src/ledger.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "net_amount_copy",
+        "file": "src/ledger.py",
+        "definition": [
+          10,
+          14
+        ],
+        "body": [
+          11,
+          14
+        ]
+      },
+      "rationale": "function name differs despite identical bodies"
+    },
+    {
+      "id": "P03",
+      "label": "positive",
+      "expected_type": "T1",
+      "scope": "body",
+      "left": {
+        "function": "clean_contact",
+        "file": "src/identity.py",
+        "definition": [
+          3,
+          6
+        ],
+        "body": [
+          4,
+          6
+        ]
+      },
+      "right": {
+        "function": "clean_supplier",
+        "file": "src/identity.py",
+        "definition": [
+          9,
+          12
+        ],
+        "body": [
+          10,
+          12
+        ]
+      },
+      "rationale": "identical normalization body"
+    },
+    {
+      "id": "P04",
+      "label": "positive",
+      "expected_type": "T2",
+      "scope": "definition",
+      "left": {
+        "function": "clean_contact",
+        "file": "src/identity.py",
+        "definition": [
+          3,
+          6
+        ],
+        "body": [
+          4,
+          6
+        ]
+      },
+      "right": {
+        "function": "clean_supplier",
+        "file": "src/identity.py",
+        "definition": [
+          9,
+          12
+        ],
+        "body": [
+          10,
+          12
+        ]
+      },
+      "rationale": "different function name"
+    },
+    {
+      "id": "P05",
+      "label": "positive",
+      "expected_type": "T2",
+      "scope": "body",
+      "left": {
+        "function": "clean_contact",
+        "file": "src/identity.py",
+        "definition": [
+          3,
+          6
+        ],
+        "body": [
+          4,
+          6
+        ]
+      },
+      "right": {
+        "function": "clean_document",
+        "file": "src/identity.py",
+        "definition": [
+          15,
+          18
+        ],
+        "body": [
+          16,
+          18
+        ]
+      },
+      "rationale": "parameter identifiers renamed"
+    },
+    {
+      "id": "P06",
+      "label": "positive",
+      "expected_type": "T2",
+      "scope": "body",
+      "left": {
+        "function": "clean_supplier",
+        "file": "src/identity.py",
+        "definition": [
+          9,
+          12
+        ],
+        "body": [
+          10,
+          12
+        ]
+      },
+      "right": {
+        "function": "clean_city",
+        "file": "src/identity.py",
+        "definition": [
+          21,
+          24
+        ],
+        "body": [
+          22,
+          24
+        ]
+      },
+      "rationale": "parameter identifiers renamed"
+    },
+    {
+      "id": "P07",
+      "label": "positive",
+      "expected_type": "T2",
+      "scope": "body",
+      "left": {
+        "function": "net_amount",
+        "file": "src/ledger.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "invoice_base",
+        "file": "src/ledger.py",
+        "definition": [
+          17,
+          21
+        ],
+        "body": [
+          18,
+          21
+        ]
+      },
+      "rationale": "consistent renamed identifiers"
+    },
+    {
+      "id": "P08",
+      "label": "positive",
+      "expected_type": "T2",
+      "scope": "body",
+      "left": {
+        "function": "total_received",
+        "file": "src/warehouse.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "units_received",
+        "file": "src/warehouse.py",
+        "definition": [
+          10,
+          14
+        ],
+        "body": [
+          11,
+          14
+        ]
+      },
+      "rationale": "renaming accumulator and iterated variables"
+    },
+    {
+      "id": "P09",
+      "label": "positive",
+      "expected_type": "T2",
+      "scope": "body",
+      "left": {
+        "function": "total_received",
+        "file": "src/warehouse.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "count_in_transit",
+        "file": "src/warehouse.py",
+        "definition": [
+          17,
+          21
+        ],
+        "body": [
+          18,
+          21
+        ]
+      },
+      "rationale": "third member of renaming group"
+    },
+    {
+      "id": "P10",
+      "label": "positive",
+      "expected_type": "T2",
+      "scope": "body",
+      "left": {
+        "function": "weight_total",
+        "file": "src/audit.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "mass_total",
+        "file": "src/audit.py",
+        "definition": [
+          10,
+          14
+        ],
+        "body": [
+          11,
+          14
+        ]
+      },
+      "rationale": "consistent renaming in separate module"
+    },
+    {
+      "id": "P11",
+      "label": "positive",
+      "expected_type": "T3",
+      "scope": "definition",
+      "left": {
+        "function": "net_amount",
+        "file": "src/ledger.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "net_with_surcharge",
+        "file": "src/ledger.py",
+        "definition": [
+          24,
+          30
+        ],
+        "body": [
+          25,
+          30
+        ]
+      },
+      "rationale": "conditional surcharge added"
+    },
+    {
+      "id": "P12",
+      "label": "positive",
+      "expected_type": "T3",
+      "scope": "definition",
+      "left": {
+        "function": "net_amount",
+        "file": "src/ledger.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "net_after_rebate",
+        "file": "src/ledger.py",
+        "definition": [
+          33,
+          37
+        ],
+        "body": [
+          34,
+          37
+        ]
+      },
+      "rationale": "return modified by multiplier"
+    },
+    {
+      "id": "P13",
+      "label": "positive",
+      "expected_type": "T3",
+      "scope": "definition",
+      "left": {
+        "function": "total_received",
+        "file": "src/warehouse.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "total_received_with_audit",
+        "file": "src/warehouse.py",
+        "definition": [
+          35,
+          41
+        ],
+        "body": [
+          36,
+          41
+        ]
+      },
+      "rationale": "validation branch added"
+    },
+    {
+      "id": "P14",
+      "label": "positive",
+      "expected_type": "T3",
+      "scope": "definition",
+      "left": {
+        "function": "number_above_zero",
+        "file": "src/statistics.py",
+        "definition": [
+          3,
+          8
+        ],
+        "body": [
+          4,
+          8
+        ]
+      },
+      "right": {
+        "function": "number_at_least_zero",
+        "file": "src/statistics.py",
+        "definition": [
+          15,
+          20
+        ],
+        "body": [
+          16,
+          20
+        ]
+      },
+      "rationale": "predicate threshold modified"
+    },
+    {
+      "id": "P15",
+      "label": "positive",
+      "expected_type": "T3",
+      "scope": "definition",
+      "left": {
+        "function": "trim_names",
+        "file": "src/catalog.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "trim_nonempty_names",
+        "file": "src/catalog.py",
+        "definition": [
+          14,
+          19
+        ],
+        "body": [
+          15,
+          19
+        ]
+      },
+      "rationale": "filter branch added"
+    },
+    {
+      "id": "P16",
+      "label": "positive",
+      "expected_type": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "net_amount",
+        "file": "src/ledger.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "concise_amount",
+        "file": "src/ledger.py",
+        "definition": [
+          40,
+          41
+        ],
+        "body": [
+          41,
+          41
+        ]
+      },
+      "rationale": "loop versus generator sum"
+    },
+    {
+      "id": "P17",
+      "label": "positive",
+      "expected_type": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "total_received",
+        "file": "src/warehouse.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "received_via_sum",
+        "file": "src/warehouse.py",
+        "definition": [
+          24,
+          25
+        ],
+        "body": [
+          25,
+          25
+        ]
+      },
+      "rationale": "manual fold versus built-in sum"
+    },
+    {
+      "id": "P18",
+      "label": "positive",
+      "expected_type": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "number_above_zero",
+        "file": "src/statistics.py",
+        "definition": [
+          3,
+          8
+        ],
+        "body": [
+          4,
+          8
+        ]
+      },
+      "right": {
+        "function": "number_above_zero_comprehension",
+        "file": "src/statistics.py",
+        "definition": [
+          11,
+          12
+        ],
+        "body": [
+          12,
+          12
+        ]
+      },
+      "rationale": "counter versus list comprehension"
+    },
+    {
+      "id": "P19",
+      "label": "positive",
+      "expected_type": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "sum_elements",
+        "file": "src/statistics.py",
+        "definition": [
+          23,
+          24
+        ],
+        "body": [
+          24,
+          24
+        ]
+      },
+      "right": {
+        "function": "sum_elements_loop",
+        "file": "src/statistics.py",
+        "definition": [
+          27,
+          31
+        ],
+        "body": [
+          28,
+          31
+        ]
+      },
+      "rationale": "built-in vs manual sum"
+    },
+    {
+      "id": "P20",
+      "label": "positive",
+      "expected_type": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "trim_names",
+        "file": "src/catalog.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "names_trimmed",
+        "file": "src/catalog.py",
+        "definition": [
+          10,
+          11
+        ],
+        "body": [
+          11,
+          11
+        ]
+      },
+      "rationale": "append loop versus comprehension"
+    },
+    {
+      "id": "N01",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "net_amount",
+        "file": "src/ledger.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "amount_with_default",
+        "file": "src/ledger.py",
+        "definition": [
+          44,
+          48
+        ],
+        "body": [
+          45,
+          48
+        ]
+      },
+      "counterexample": "missing price differs: KeyError versus default zero"
+    },
+    {
+      "id": "N02",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "net_amount",
+        "file": "src/ledger.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "net_amount_rounded",
+        "file": "src/ledger.py",
+        "definition": [
+          51,
+          55
+        ],
+        "body": [
+          52,
+          55
+        ]
+      },
+      "counterexample": "per-line rounding changes numeric result"
+    },
+    {
+      "id": "N03",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "clean_contact",
+        "file": "src/identity.py",
+        "definition": [
+          3,
+          6
+        ],
+        "body": [
+          4,
+          6
+        ]
+      },
+      "right": {
+        "function": "clean_upper",
+        "file": "src/identity.py",
+        "definition": [
+          27,
+          30
+        ],
+        "body": [
+          28,
+          30
+        ]
+      },
+      "counterexample": "lower differs from upper"
+    },
+    {
+      "id": "N04",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "clean_contact",
+        "file": "src/identity.py",
+        "definition": [
+          3,
+          6
+        ],
+        "body": [
+          4,
+          6
+        ]
+      },
+      "right": {
+        "function": "clean_contact_casefold",
+        "file": "src/identity.py",
+        "definition": [
+          33,
+          36
+        ],
+        "body": [
+          34,
+          36
+        ]
+      },
+      "counterexample": "casefold differs from lower for certain Unicode"
+    },
+    {
+      "id": "N05",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "clean_contact",
+        "file": "src/identity.py",
+        "definition": [
+          3,
+          6
+        ],
+        "body": [
+          4,
+          6
+        ]
+      },
+      "right": {
+        "function": "clean_contact_without_strip",
+        "file": "src/identity.py",
+        "definition": [
+          39,
+          42
+        ],
+        "body": [
+          40,
+          42
+        ]
+      },
+      "counterexample": "leading/trailing whitespace differs"
+    },
+    {
+      "id": "N06",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "number_above_zero",
+        "file": "src/statistics.py",
+        "definition": [
+          3,
+          8
+        ],
+        "body": [
+          4,
+          8
+        ]
+      },
+      "right": {
+        "function": "number_at_least_zero",
+        "file": "src/statistics.py",
+        "definition": [
+          15,
+          20
+        ],
+        "body": [
+          16,
+          20
+        ]
+      },
+      "counterexample": "zero boundary differs"
+    },
+    {
+      "id": "N07",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "count_even",
+        "file": "src/statistics.py",
+        "definition": [
+          34,
+          35
+        ],
+        "body": [
+          35,
+          35
+        ]
+      },
+      "right": {
+        "function": "count_odd",
+        "file": "src/statistics.py",
+        "definition": [
+          38,
+          39
+        ],
+        "body": [
+          39,
+          39
+        ]
+      },
+      "counterexample": "even versus odd"
+    },
+    {
+      "id": "N08",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "unique_names",
+        "file": "src/catalog.py",
+        "definition": [
+          22,
+          27
+        ],
+        "body": [
+          23,
+          27
+        ]
+      },
+      "right": {
+        "function": "names_as_set",
+        "file": "src/catalog.py",
+        "definition": [
+          30,
+          31
+        ],
+        "body": [
+          31,
+          31
+        ]
+      },
+      "counterexample": "order and semantics differ for hashables; unhashable support differs"
+    },
+    {
+      "id": "N09",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "first_three",
+        "file": "src/catalog.py",
+        "definition": [
+          34,
+          35
+        ],
+        "body": [
+          35,
+          35
+        ]
+      },
+      "right": {
+        "function": "first_four",
+        "file": "src/catalog.py",
+        "definition": [
+          38,
+          39
+        ],
+        "body": [
+          39,
+          39
+        ]
+      },
+      "counterexample": "slice length differs"
+    },
+    {
+      "id": "N10",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "require_positive_weight",
+        "file": "src/audit.py",
+        "definition": [
+          24,
+          25
+        ],
+        "body": [
+          25,
+          25
+        ]
+      },
+      "right": {
+        "function": "require_nonnegative_weight",
+        "file": "src/audit.py",
+        "definition": [
+          28,
+          29
+        ],
+        "body": [
+          29,
+          29
+        ]
+      },
+      "counterexample": "zero boundary differs"
+    },
+    {
+      "id": "N11",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "weight_total",
+        "file": "src/audit.py",
+        "definition": [
+          3,
+          7
+        ],
+        "body": [
+          4,
+          7
+        ]
+      },
+      "right": {
+        "function": "weight_total_with_fallback",
+        "file": "src/audit.py",
+        "definition": [
+          17,
+          21
+        ],
+        "body": [
+          18,
+          21
+        ]
+      },
+      "counterexample": "missing key behavior differs"
+    },
+    {
+      "id": "N12",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "count_even",
+        "file": "src/statistics.py",
+        "definition": [
+          34,
+          35
+        ],
+        "body": [
+          35,
+          35
+        ]
+      },
+      "right": {
+        "function": "count_nonempty_strings",
+        "file": "src/statistics.py",
+        "definition": [
+          42,
+          43
+        ],
+        "body": [
+          43,
+          43
+        ]
+      },
+      "counterexample": "predicate and domain differ"
+    },
+    {
+      "id": "N13",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "received_via_sum",
+        "file": "src/warehouse.py",
+        "definition": [
+          24,
+          25
+        ],
+        "body": [
+          25,
+          25
+        ]
+      },
+      "right": {
+        "function": "received_nonnegative",
+        "file": "src/warehouse.py",
+        "definition": [
+          28,
+          32
+        ],
+        "body": [
+          29,
+          32
+        ]
+      },
+      "counterexample": "negative pieces treated differently"
+    },
+    {
+      "id": "N14",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "net_with_surcharge",
+        "file": "src/ledger.py",
+        "definition": [
+          24,
+          30
+        ],
+        "body": [
+          25,
+          30
+        ]
+      },
+      "right": {
+        "function": "net_after_rebate",
+        "file": "src/ledger.py",
+        "definition": [
+          33,
+          37
+        ],
+        "body": [
+          34,
+          37
+        ]
+      },
+      "counterexample": "different monetary policies"
+    },
+    {
+      "id": "N15",
+      "label": "negative_semantic_equivalence",
+      "rejected_claim": "T4",
+      "scope": "definition",
+      "left": {
+        "function": "is_small_batch",
+        "file": "src/audit.py",
+        "definition": [
+          32,
+          33
+        ],
+        "body": [
+          33,
+          33
+        ]
+      },
+      "right": {
+        "function": "require_positive_weight",
+        "file": "src/audit.py",
+        "definition": [
+          24,
+          25
+        ],
+        "body": [
+          25,
+          25
+        ]
+      },
+      "counterexample": "range predicates differ"
+    }
+  ]
+}

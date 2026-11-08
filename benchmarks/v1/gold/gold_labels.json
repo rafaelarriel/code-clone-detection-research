@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0",
+  "annotation_unit": "function pairs unless scope=body",
+  "positives": [
+    {
+      "group_id": "G01",
+      "type": "T1",
+      "scope": "body",
+      "members": [
+        {
+          "file": "src/billing.py",
+          "function": "invoice_subtotal",
+          "start_line": 5,
+          "end_line": 8
+        },
+        {
+          "file": "src/billing.py",
+          "function": "invoice_subtotal_copy",
+          "start_line": 12,
+          "end_line": 15
+        }
+      ],
+      "rationale": "Function bodies are textually identical; function names differ (functions overall therefore Type 2, but body is Type 1)."
+    },
+    {
+      "group_id": "G02",
+      "type": "T2",
+      "scope": "function",
+      "members": [
+        {
+          "file": "src/billing.py",
+          "function": "invoice_subtotal",
+          "start_line": 4,
+          "end_line": 8
+        },
+        {
+          "file": "src/billing.py",
+          "function": "calculate_order_value",
+          "start_line": 18,
+          "end_line": 22
+        }
+      ],
+      "rationale": "Same statements with renamed parameters, locals and collection item names."
+    },
+    {
+      "group_id": "G03",
+      "type": "T3",
+      "scope": "function",
+      "members": [
+        {
+          "file": "src/billing.py",
+          "function": "invoice_subtotal",
+          "start_line": 4,
+          "end_line": 8
+        },
+        {
+          "file": "src/billing.py",
+          "function": "invoice_subtotal_with_fee",
+          "start_line": 25,
+          "end_line": 31
+        }
+      ],
+      "rationale": "One branch and fee update added; copied portion remains unchanged."
+    },
+    {
+      "group_id": "G04",
+      "type": "T4",
+      "scope": "function",
+      "members": [
+        {
+          "file": "src/billing.py",
+          "function": "invoice_subtotal",
+          "start_line": 4,
+          "end_line": 8
+        },
+        {
+          "file": "src/billing.py",
+          "function": "sum_net_prices",
+          "start_line": 34,
+          "end_line": 35
+        }
+      ],
+      "rationale": "Loop accumulation vs generator expression; equivalent over ordinary finite lists of dicts with numeric price/quantity."
+    },
+    {
+      "group_id": "G05",
+      "type": "T2",
+      "scope": "function",
+      "members": [
+        {
+          "file": "src/inventory.py",
+          "function": "total_stock_units",
+          "start_line": 4,
+          "end_line": 8
+        },
+        {
+          "file": "src/inventory.py",
+          "function": "stock_units_renamed",
+          "start_line": 11,
+          "end_line": 15
+        }
+      ],
+      "rationale": "Parameter and local names differ; structure retained."
+    },
+    {
+      "group_id": "G06",
+      "type": "T1",
+      "scope": "body",
+      "members": [
+        {
+          "file": "src/formatting.py",
+          "function": "normalized_person_name",
+          "start_line": 5,
+          "end_line": 7
+        },
+        {
+          "file": "src/formatting.py",
+          "function": "normalized_customer_name",
+          "start_line": 11,
+          "end_line": 13
+        }
+      ],
+      "rationale": "Function bodies identical, disregarding outer function names."
+    },
+    {
+      "group_id": "G07",
+      "type": "T2",
+      "scope": "function",
+      "members": [
+        {
+          "file": "src/formatting.py",
+          "function": "normalized_person_name",
+          "start_line": 4,
+          "end_line": 7
+        },
+        {
+          "file": "src/formatting.py",
+          "function": "normalized_product_name",
+          "start_line": 16,
+          "end_line": 19
+        }
+      ],
+      "rationale": "Same logic with renamed argument."
+    },
+    {
+      "group_id": "G08",
+      "type": "T4",
+      "scope": "function",
+      "members": [
+        {
+          "file": "src/analytics.py",
+          "function": "positive_count",
+          "start_line": 4,
+          "end_line": 9
+        },
+        {
+          "file": "src/analytics.py",
+          "function": "positives_len",
+          "start_line": 12,
+          "end_line": 13
+        }
+      ],
+      "rationale": "For numeric finite collections, both count elements > 0; different strategies."
+    },
+    {
+      "group_id": "G09",
+      "type": "T4",
+      "scope": "function",
+      "members": [
+        {
+          "file": "src/analytics.py",
+          "function": "total_sum",
+          "start_line": 24,
+          "end_line": 25
+        },
+        {
+          "file": "src/analytics.py",
+          "function": "manual_total_sum",
+          "start_line": 28,
+          "end_line": 32
+        }
+      ],
+      "rationale": "For ordinary finite lists of numeric values, both sum entries; empty lists also produce zero."
+    }
+  ],
+  "non_semantic_equivalences": [
+    {
+      "id": "N01",
+      "file_a": "src/permissions.py",
+      "function_a": "is_adult",
+      "file_b": "src/permissions.py",
+      "function_b": "is_minor",
+      "why_not_type4": "Opposite predicates on ordinary numeric ages; matching shape does not imply equivalent behavior.",
+      "label": "not_type4"
+    },
+    {
+      "id": "N02",
+      "file_a": "src/permissions.py",
+      "function_a": "is_positive",
+      "file_b": "src/permissions.py",
+      "function_b": "is_nonnegative",
+      "why_not_type4": "Zero changes the result.",
+      "label": "not_type4"
+    },
+    {
+      "id": "N03",
+      "file_a": "src/analytics.py",
+      "function_a": "positive_count",
+      "file_b": "src/analytics.py",
+      "function_b": "count_nonnegative",
+      "why_not_type4": "Zero changes the result.",
+      "label": "not_type4"
+    },
+    {
+      "id": "N04",
+      "file_a": "src/billing.py",
+      "function_a": "invoice_subtotal",
+      "file_b": "src/billing.py",
+      "function_b": "invoice_total_with_tax",
+      "why_not_type4": "Different billing behavior; overlapping statements may be a Type 3 partial clone but the functions are not semantic equivalents.",
+      "label": "not_type4"
+    },
+    {
+      "id": "N05",
+      "file_a": "src/discounts.py",
+      "function_a": "discount_ten_percent",
+      "file_b": "src/discounts.py",
+      "function_b": "discount_fifteen_percent",
+      "why_not_type4": "Different numeric rate; intentionally exclude from semantic-clone positives, despite syntactic near-clone properties.",
+      "label": "not_type4"
+    },
+    {
+      "id": "N06",
+      "file_a": "src/analytics.py",
+      "function_a": "total_sum",
+      "file_b": "src/analytics.py",
+      "function_b": "average",
+      "why_not_type4": "Different aggregate functions.",
+      "label": "not_type4"
+    }
+  ],
+  "caveats": [
+    "T1 groups are identical statement bodies, not entire function definitions (their names differ).",
+    "T4 equivalence claims apply only under the specified input domains, not arbitrary Python objects or floating-point edge cases.",
+    "Dataset is a small synthetic smoke test and cannot support generalizable efficacy claims.",
+    "Some pairs outside listed positives may be legitimate clones. Do not score unlisted pairs as false positives without human review.",
+    "The non-semantic-equivalence examples can still be Type 2 or Type 3 syntactic clones; they are negative only for Type 4."
+  ]
+}

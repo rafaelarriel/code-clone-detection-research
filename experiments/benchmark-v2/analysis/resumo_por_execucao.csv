@@ -1,0 +1,7 @@
+﻿execucao,condicao,positivos_corretos,total_positivos,cobertura_estrita_pct,negativos_sem_afirmacao_t4,total_negativos
+EXP-1,Sem skill,18,20,90.0,15,15
+EXP-2,Sem skill,18,20,90.0,15,15
+EXP-003,Skill v1.0,18,20,90.0,15,15
+EXP-004,Skill v1.0,20,20,100.0,15,15
+EXP-005,Skill v1.1,19,20,95.0,15,15
+EXP-006,Skill v1.1,20,20,100.0,15,15

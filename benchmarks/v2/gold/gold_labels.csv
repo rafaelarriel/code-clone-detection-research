@@ -1,0 +1,36 @@
+case_id,label,expected_type_or_rejected_claim,scope,left_file,left_function,left_lines,right_file,right_function,right_lines,rationale
+P01,positive,T1,body,src/ledger.py,net_amount,4-7,src/ledger.py,net_amount_copy,11-14,identical accumulation body
+P02,positive,T2,definition,src/ledger.py,net_amount,3-7,src/ledger.py,net_amount_copy,10-14,function name differs despite identical bodies
+P03,positive,T1,body,src/identity.py,clean_contact,4-6,src/identity.py,clean_supplier,10-12,identical normalization body
+P04,positive,T2,definition,src/identity.py,clean_contact,3-6,src/identity.py,clean_supplier,9-12,different function name
+P05,positive,T2,body,src/identity.py,clean_contact,4-6,src/identity.py,clean_document,16-18,parameter identifiers renamed
+P06,positive,T2,body,src/identity.py,clean_supplier,10-12,src/identity.py,clean_city,22-24,parameter identifiers renamed
+P07,positive,T2,body,src/ledger.py,net_amount,4-7,src/ledger.py,invoice_base,18-21,consistent renamed identifiers
+P08,positive,T2,body,src/warehouse.py,total_received,4-7,src/warehouse.py,units_received,11-14,renaming accumulator and iterated variables
+P09,positive,T2,body,src/warehouse.py,total_received,4-7,src/warehouse.py,count_in_transit,18-21,third member of renaming group
+P10,positive,T2,body,src/audit.py,weight_total,4-7,src/audit.py,mass_total,11-14,consistent renaming in separate module
+P11,positive,T3,definition,src/ledger.py,net_amount,3-7,src/ledger.py,net_with_surcharge,24-30,conditional surcharge added
+P12,positive,T3,definition,src/ledger.py,net_amount,3-7,src/ledger.py,net_after_rebate,33-37,return modified by multiplier
+P13,positive,T3,definition,src/warehouse.py,total_received,3-7,src/warehouse.py,total_received_with_audit,35-41,validation branch added
+P14,positive,T3,definition,src/statistics.py,number_above_zero,3-8,src/statistics.py,number_at_least_zero,15-20,predicate threshold modified
+P15,positive,T3,definition,src/catalog.py,trim_names,3-7,src/catalog.py,trim_nonempty_names,14-19,filter branch added
+P16,positive,T4,definition,src/ledger.py,net_amount,3-7,src/ledger.py,concise_amount,40-41,loop versus generator sum
+P17,positive,T4,definition,src/warehouse.py,total_received,3-7,src/warehouse.py,received_via_sum,24-25,manual fold versus built-in sum
+P18,positive,T4,definition,src/statistics.py,number_above_zero,3-8,src/statistics.py,number_above_zero_comprehension,11-12,counter versus list comprehension
+P19,positive,T4,definition,src/statistics.py,sum_elements,23-24,src/statistics.py,sum_elements_loop,27-31,built-in vs manual sum
+P20,positive,T4,definition,src/catalog.py,trim_names,3-7,src/catalog.py,names_trimmed,10-11,append loop versus comprehension
+N01,negative_semantic_equivalence,T4,definition,src/ledger.py,net_amount,3-7,src/ledger.py,amount_with_default,44-48,missing price differs: KeyError versus default zero
+N02,negative_semantic_equivalence,T4,definition,src/ledger.py,net_amount,3-7,src/ledger.py,net_amount_rounded,51-55,per-line rounding changes numeric result
+N03,negative_semantic_equivalence,T4,definition,src/identity.py,clean_contact,3-6,src/identity.py,clean_upper,27-30,lower differs from upper
+N04,negative_semantic_equivalence,T4,definition,src/identity.py,clean_contact,3-6,src/identity.py,clean_contact_casefold,33-36,casefold differs from lower for certain Unicode
+N05,negative_semantic_equivalence,T4,definition,src/identity.py,clean_contact,3-6,src/identity.py,clean_contact_without_strip,39-42,leading/trailing whitespace differs
+N06,negative_semantic_equivalence,T4,definition,src/statistics.py,number_above_zero,3-8,src/statistics.py,number_at_least_zero,15-20,zero boundary differs
+N07,negative_semantic_equivalence,T4,definition,src/statistics.py,count_even,34-35,src/statistics.py,count_odd,38-39,even versus odd
+N08,negative_semantic_equivalence,T4,definition,src/catalog.py,unique_names,22-27,src/catalog.py,names_as_set,30-31,order and semantics differ for hashables; unhashable support differs
+N09,negative_semantic_equivalence,T4,definition,src/catalog.py,first_three,34-35,src/catalog.py,first_four,38-39,slice length differs
+N10,negative_semantic_equivalence,T4,definition,src/audit.py,require_positive_weight,24-25,src/audit.py,require_nonnegative_weight,28-29,zero boundary differs
+N11,negative_semantic_equivalence,T4,definition,src/audit.py,weight_total,3-7,src/audit.py,weight_total_with_fallback,17-21,missing key behavior differs
+N12,negative_semantic_equivalence,T4,definition,src/statistics.py,count_even,34-35,src/statistics.py,count_nonempty_strings,42-43,predicate and domain differ
+N13,negative_semantic_equivalence,T4,definition,src/warehouse.py,received_via_sum,24-25,src/warehouse.py,received_nonnegative,28-32,negative pieces treated differently
+N14,negative_semantic_equivalence,T4,definition,src/ledger.py,net_with_surcharge,24-30,src/ledger.py,net_after_rebate,33-37,different monetary policies
+N15,negative_semantic_equivalence,T4,definition,src/audit.py,is_small_batch,32-33,src/audit.py,require_positive_weight,24-25,range predicates differ

@@ -1,0 +1,211 @@
+﻿execucao,condicao,caso,rotulo,tipo_esperado,granularidade,pontuacao,observacao
+EXP-1,Sem skill,P01,positive,T1,body,1,
+EXP-1,Sem skill,P02,positive,T2,definition,0,T1 do corpo indicado; T2 da definição não classificado explicitamente
+EXP-1,Sem skill,P03,positive,T1,body,1,
+EXP-1,Sem skill,P04,positive,T2,definition,0,T1 do corpo indicado; T2 da definição não classificado explicitamente
+EXP-1,Sem skill,P05,positive,T2,body,1,
+EXP-1,Sem skill,P06,positive,T2,body,1,
+EXP-1,Sem skill,P07,positive,T2,body,1,
+EXP-1,Sem skill,P08,positive,T2,body,1,
+EXP-1,Sem skill,P09,positive,T2,body,1,
+EXP-1,Sem skill,P10,positive,T2,body,1,
+EXP-1,Sem skill,P11,positive,T3,definition,1,
+EXP-1,Sem skill,P12,positive,T3,definition,1,
+EXP-1,Sem skill,P13,positive,T3,definition,1,
+EXP-1,Sem skill,P14,positive,T3,definition,1,
+EXP-1,Sem skill,P15,positive,T3,definition,1,
+EXP-1,Sem skill,P16,positive,T4,definition,1,
+EXP-1,Sem skill,P17,positive,T4,definition,1,
+EXP-1,Sem skill,P18,positive,T4,definition,1,
+EXP-1,Sem skill,P19,positive,T4,definition,1,
+EXP-1,Sem skill,P20,positive,T4,definition,1,
+EXP-1,Sem skill,N01,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N02,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N03,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N04,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N05,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N06,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N07,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N08,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N09,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N10,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N11,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N12,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N13,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N14,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-1,Sem skill,N15,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,P01,positive,T1,body,1,
+EXP-2,Sem skill,P02,positive,T2,definition,0,T1 do corpo indicado; T2 da definição não classificado explicitamente
+EXP-2,Sem skill,P03,positive,T1,body,1,
+EXP-2,Sem skill,P04,positive,T2,definition,0,T1 do corpo indicado; T2 da definição não classificado explicitamente
+EXP-2,Sem skill,P05,positive,T2,body,1,
+EXP-2,Sem skill,P06,positive,T2,body,1,
+EXP-2,Sem skill,P07,positive,T2,body,1,
+EXP-2,Sem skill,P08,positive,T2,body,1,
+EXP-2,Sem skill,P09,positive,T2,body,1,
+EXP-2,Sem skill,P10,positive,T2,body,1,
+EXP-2,Sem skill,P11,positive,T3,definition,1,
+EXP-2,Sem skill,P12,positive,T3,definition,1,
+EXP-2,Sem skill,P13,positive,T3,definition,1,
+EXP-2,Sem skill,P14,positive,T3,definition,1,
+EXP-2,Sem skill,P15,positive,T3,definition,1,
+EXP-2,Sem skill,P16,positive,T4,definition,1,
+EXP-2,Sem skill,P17,positive,T4,definition,1,
+EXP-2,Sem skill,P18,positive,T4,definition,1,
+EXP-2,Sem skill,P19,positive,T4,definition,1,
+EXP-2,Sem skill,P20,positive,T4,definition,1,
+EXP-2,Sem skill,N01,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N02,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N03,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N04,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N05,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N06,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N07,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N08,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N09,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N10,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N11,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N12,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N13,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N14,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-2,Sem skill,N15,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,P01,positive,T1,body,1,
+EXP-003,Skill v1.0,P02,positive,T2,definition,0,T1 do corpo indicado; T2 da definição não classificado explicitamente
+EXP-003,Skill v1.0,P03,positive,T1,body,0,T2 da definição indicado; T1 do corpo não classificado explicitamente
+EXP-003,Skill v1.0,P04,positive,T2,definition,1,
+EXP-003,Skill v1.0,P05,positive,T2,body,1,
+EXP-003,Skill v1.0,P06,positive,T2,body,1,
+EXP-003,Skill v1.0,P07,positive,T2,body,1,
+EXP-003,Skill v1.0,P08,positive,T2,body,1,
+EXP-003,Skill v1.0,P09,positive,T2,body,1,
+EXP-003,Skill v1.0,P10,positive,T2,body,1,
+EXP-003,Skill v1.0,P11,positive,T3,definition,1,
+EXP-003,Skill v1.0,P12,positive,T3,definition,1,
+EXP-003,Skill v1.0,P13,positive,T3,definition,1,
+EXP-003,Skill v1.0,P14,positive,T3,definition,1,
+EXP-003,Skill v1.0,P15,positive,T3,definition,1,
+EXP-003,Skill v1.0,P16,positive,T4,definition,1,
+EXP-003,Skill v1.0,P17,positive,T4,definition,1,
+EXP-003,Skill v1.0,P18,positive,T4,definition,1,
+EXP-003,Skill v1.0,P19,positive,T4,definition,1,
+EXP-003,Skill v1.0,P20,positive,T4,definition,1,
+EXP-003,Skill v1.0,N01,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N02,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N03,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N04,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N05,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N06,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N07,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N08,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N09,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N10,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N11,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N12,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N13,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N14,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-003,Skill v1.0,N15,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,P01,positive,T1,body,1,
+EXP-004,Skill v1.0,P02,positive,T2,definition,1,
+EXP-004,Skill v1.0,P03,positive,T1,body,1,
+EXP-004,Skill v1.0,P04,positive,T2,definition,1,
+EXP-004,Skill v1.0,P05,positive,T2,body,1,
+EXP-004,Skill v1.0,P06,positive,T2,body,1,
+EXP-004,Skill v1.0,P07,positive,T2,body,1,
+EXP-004,Skill v1.0,P08,positive,T2,body,1,
+EXP-004,Skill v1.0,P09,positive,T2,body,1,
+EXP-004,Skill v1.0,P10,positive,T2,body,1,
+EXP-004,Skill v1.0,P11,positive,T3,definition,1,
+EXP-004,Skill v1.0,P12,positive,T3,definition,1,
+EXP-004,Skill v1.0,P13,positive,T3,definition,1,
+EXP-004,Skill v1.0,P14,positive,T3,definition,1,
+EXP-004,Skill v1.0,P15,positive,T3,definition,1,
+EXP-004,Skill v1.0,P16,positive,T4,definition,1,
+EXP-004,Skill v1.0,P17,positive,T4,definition,1,
+EXP-004,Skill v1.0,P18,positive,T4,definition,1,
+EXP-004,Skill v1.0,P19,positive,T4,definition,1,
+EXP-004,Skill v1.0,P20,positive,T4,definition,1,
+EXP-004,Skill v1.0,N01,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N02,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N03,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N04,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N05,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N06,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N07,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N08,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N09,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N10,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N11,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N12,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N13,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N14,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-004,Skill v1.0,N15,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,P01,positive,T1,body,1,
+EXP-005,Skill v1.1,P02,positive,T2,definition,1,
+EXP-005,Skill v1.1,P03,positive,T1,body,1,
+EXP-005,Skill v1.1,P04,positive,T2,definition,1,
+EXP-005,Skill v1.1,P05,positive,T2,body,1,
+EXP-005,Skill v1.1,P06,positive,T2,body,1,
+EXP-005,Skill v1.1,P07,positive,T2,body,1,
+EXP-005,Skill v1.1,P08,positive,T2,body,1,
+EXP-005,Skill v1.1,P09,positive,T2,body,1,
+EXP-005,Skill v1.1,P10,positive,T2,body,1,
+EXP-005,Skill v1.1,P11,positive,T3,definition,1,
+EXP-005,Skill v1.1,P12,positive,T3,definition,1,
+EXP-005,Skill v1.1,P13,positive,T3,definition,0,Par com total_received_with_audit não reportado
+EXP-005,Skill v1.1,P14,positive,T3,definition,1,
+EXP-005,Skill v1.1,P15,positive,T3,definition,1,
+EXP-005,Skill v1.1,P16,positive,T4,definition,1,
+EXP-005,Skill v1.1,P17,positive,T4,definition,1,
+EXP-005,Skill v1.1,P18,positive,T4,definition,1,
+EXP-005,Skill v1.1,P19,positive,T4,definition,1,
+EXP-005,Skill v1.1,P20,positive,T4,definition,1,
+EXP-005,Skill v1.1,N01,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N02,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N03,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N04,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N05,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N06,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N07,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N08,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N09,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N10,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N11,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N12,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N13,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N14,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-005,Skill v1.1,N15,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,P01,positive,T1,body,1,
+EXP-006,Skill v1.1,P02,positive,T2,definition,1,
+EXP-006,Skill v1.1,P03,positive,T1,body,1,
+EXP-006,Skill v1.1,P04,positive,T2,definition,1,
+EXP-006,Skill v1.1,P05,positive,T2,body,1,
+EXP-006,Skill v1.1,P06,positive,T2,body,1,
+EXP-006,Skill v1.1,P07,positive,T2,body,1,
+EXP-006,Skill v1.1,P08,positive,T2,body,1,
+EXP-006,Skill v1.1,P09,positive,T2,body,1,
+EXP-006,Skill v1.1,P10,positive,T2,body,1,
+EXP-006,Skill v1.1,P11,positive,T3,definition,1,
+EXP-006,Skill v1.1,P12,positive,T3,definition,1,
+EXP-006,Skill v1.1,P13,positive,T3,definition,1,
+EXP-006,Skill v1.1,P14,positive,T3,definition,1,
+EXP-006,Skill v1.1,P15,positive,T3,definition,1,
+EXP-006,Skill v1.1,P16,positive,T4,definition,1,
+EXP-006,Skill v1.1,P17,positive,T4,definition,1,
+EXP-006,Skill v1.1,P18,positive,T4,definition,1,
+EXP-006,Skill v1.1,P19,positive,T4,definition,1,
+EXP-006,Skill v1.1,P20,positive,T4,definition,1,
+EXP-006,Skill v1.1,N01,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N02,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N03,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N04,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N05,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N06,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N07,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N08,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N09,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N10,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N11,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N12,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N13,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N14,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa
+EXP-006,Skill v1.1,N15,negative_semantic_equivalence,T4,definition,1,Não afirmou equivalência semântica T4 para o par; ausência não prova rejeição ativa

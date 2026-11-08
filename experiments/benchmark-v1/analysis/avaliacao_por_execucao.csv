@@ -1,0 +1,11 @@
+experimento,condicao,modelo,esforco,G01_T1,G02_T2,G03_T3,G04_T4,G05_T2,G06_T1,G07_T2,G08_T4,G09_T4,corretos,total,cobertura_pct
+EXP-001,com-skill,GPT-5.6,Medium,1,0,1,1,1,0,1,1,1,7,9,77.78
+EXP-002,sem-skill,GPT-5.6,Medium,1,1,1,1,1,1,1,1,1,9,9,100.00
+EXP-003,sem-skill,GPT-5.6,Medium,1,1,1,1,1,1,1,1,1,9,9,100.00
+EXP-004,sem-skill,GPT-5.6,Medium,1,1,1,1,1,1,1,1,1,9,9,100.00
+EXP-005,sem-skill,GPT-5.6,Medium,1,1,1,1,1,1,1,1,1,9,9,100.00
+EXP-006,sem-skill,GPT-5.6,Medium,1,1,1,1,1,1,1,1,1,9,9,100.00
+EXP-007,com-skill,GPT-5.6,Medium,1,1,1,1,1,1,1,1,1,9,9,100.00
+EXP-008,com-skill,GPT-5.6,Medium,1,1,1,1,1,1,0,1,1,8,9,88.89
+EXP-009,com-skill,GPT-5.6,Medium,1,1,1,1,1,1,0,1,1,8,9,88.89
+EXP-010,com-skill,GPT-5.6,Medium,1,1,1,1,1,1,0,1,1,8,9,88.89

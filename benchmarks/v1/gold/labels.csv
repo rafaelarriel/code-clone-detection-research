@@ -1,0 +1,10 @@
+group_id,type,scope,file_a,function_a,start_a,end_a,file_b,function_b,start_b,end_b
+G01,T1,body,src/billing.py,invoice_subtotal,5,8,src/billing.py,invoice_subtotal_copy,12,15
+G02,T2,function,src/billing.py,invoice_subtotal,4,8,src/billing.py,calculate_order_value,18,22
+G03,T3,function,src/billing.py,invoice_subtotal,4,8,src/billing.py,invoice_subtotal_with_fee,25,31
+G04,T4,function,src/billing.py,invoice_subtotal,4,8,src/billing.py,sum_net_prices,34,35
+G05,T2,function,src/inventory.py,total_stock_units,4,8,src/inventory.py,stock_units_renamed,11,15
+G06,T1,body,src/formatting.py,normalized_person_name,5,7,src/formatting.py,normalized_customer_name,11,13
+G07,T2,function,src/formatting.py,normalized_person_name,4,7,src/formatting.py,normalized_product_name,16,19
+G08,T4,function,src/analytics.py,positive_count,4,9,src/analytics.py,positives_len,12,13
+G09,T4,function,src/analytics.py,total_sum,24,25,src/analytics.py,manual_total_sum,28,32
